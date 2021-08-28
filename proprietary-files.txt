@@ -415,12 +415,6 @@ vendor/lib64/libOmxWmaDec.so|72d748d4feeb92a8d8963ee71ea5cbe57cd72f7d
 # NFC
 vendor/lib/libpn553_fw.so
 
-# NVRAM
-system/bin/nvram_btwifi
-
-# NVRAM Deps - from cmi RKQ1.200512.002-V20.6.28
-system_ext/lib64/libmmi.so:system/lib64/libmmi.so|f2beb127814367f841758c4f0eeca3fbe8deecb5
-
 # Perf - from ddv_sprout 11-RKQ1.210607.001-00WW_3_440-release-keys
 system_ext/etc/perf/wlc_model.tflite|83cf4df067bc14c78f31943f32bcaf6f32419125
 system_ext/lib/libqti-perfd-client_system.so|e7efdcc9a641b5058d92ce94a3e352123da22571
