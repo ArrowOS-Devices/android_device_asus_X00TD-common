@@ -339,10 +339,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     librecovery_updater_asus
 
-# RenderScript HAL
-PRODUCT_PACKAGES += \
-    android.hardware.renderscript@1.0-impl
-
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.btmac.sh \
