@@ -4,3 +4,4 @@ dontaudit init firmware_file:filesystem getattr;
 allow init btmac_prop:file { read  relabelto  write };
 allow init nfc_sensors_prop:file { read  relabelto  write };
 allow init vendor_camera_prop:file { relabelto  write };
+allow init property_type:file { append create getattr map open read relabelto rename setattr unlink write };
