@@ -27,7 +27,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.audio.service \
     android.hardware.audio.effect@2.0-service
-	
+
 PRODUCT_PACKAGES += \
     audio_amplifier.sdm660 \
     audio.bluetooth.default \
@@ -184,6 +184,10 @@ PRODUCT_PACKAGES += \
     libqcomfm_jni \
     qcom.fmradio \
     qcom.fmradio.xml
+
+# Google Battery HAL
+PRODUCT_PACKAGES += \
+    vendor.google.google_battery@1.1
 
 # GPS
 PRODUCT_PACKAGES += \
