@@ -82,7 +82,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+$(call inherit-product, packages/apps/GoogleCameraGoEdition/GoogleCameraGoEdition.mk)
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.common@1.0 \
