@@ -60,6 +60,16 @@ on post-fs
     start vendor.qseecomd
     wait_for_prop vendor.sys.listeners.registered true
     write /dev/ipa 1
+	
+on late-fs
+    # Start services for bootanim
+    start surfaceflinger
+    start bootanim
+	
+    start vendor.hwcomposer-2-1
+    start vendor.configstore-hal
+    start vendor.gralloc-2-0
+    start vendor.light-hal-2-0
 
 on init
     write /sys/module/qpnp_rtc/parameters/poweron_alarm 1
