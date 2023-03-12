@@ -36,6 +36,9 @@ vendor.display.disable_skip_validate=1
 # GPS
 persist.vendor.overlay.izat.optin=rro
 
+# Pre-Rendering
+ro.vendor.perf.scroll_opt=true
+
 # Graphics
 debug.sf.latch_unsignaled=1
 persist.demo.hdmirotationlock=false
